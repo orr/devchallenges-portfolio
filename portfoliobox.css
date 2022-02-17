@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap');
+
+.portfolio-box{
+    background: #FFFFFF;
+    border-radius: 12px;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    padding: 1rem;
+    gap:1.5rem;
+    box-shadow: 0px 0px 30px rgba(51, 51, 51, 0.1);
+    max-width: 1040px;
+}
+
+.portfolio-box .photo{
+    flex: 1;
+}
+.portfolio-box .infos{
+    flex: 2.5;
+    gap:2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.portfolio-box .tags{
+    margin-bottom: 1.5rem;
+}
+.portfolio-box .title{
+    margin-bottom: 1.125rem;
+}
+.portfolio-box .description{
+    margin-bottom: 3.125rem;
+}
+
+.info-box .photo img{
+    width: 100%;
+    border-radius: 12px;
+}
+
+.info-box .info-top{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-box .info-bottom{
+    flex: 3.5;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    justify-content: flex-start;
+}
+
+.info-box .name{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    color: #4F4F4F;
+}
+.info-box .job{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    color: #828282;
+}
+.info-box .email{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    color: #4F4F4F;
+}
+.info-box .phone{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    color: #4F4F4F;
+}
+.info-box .resume{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    color: #828282;
+}
+.info-box .contact .email, .info-box .contact .phone{
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+}
+
+.info-box.vert{
+    flex-direction: column;
+    max-width: 420px;
+}
+.info-box.vert .info-top {
+    flex-direction: column;
+    gap: 2rem;
+}
+ .info-box.vert .infos{
+    flex-direction: column;
+    gap: 2rem;
+}
